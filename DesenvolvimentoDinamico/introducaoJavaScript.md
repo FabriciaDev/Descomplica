@@ -8,7 +8,7 @@ JavaScript é uma linguagem de programação essencial no desenvolvimento web, r
 JavaScript é uma linguagem interpretada, o que significa que seu código é executado diretamente pelo navegador, sem a necessidade de compilação prévia. Ela é amplamente usada no lado do cliente (front-end), mas também pode ser aplicada no lado do servidor (back-end) com o uso do Node.js. Uma característica importante do JavaScript é sua integração com HTML e CSS. Enquanto o HTML define a estrutura de uma página e o CSS cuida da aparência, o JavaScript adiciona a lógica e os comportamentos dinâmicos, como responder a cliques do usuário, enviar e receber dados de servidores e muito mais.
 
 Exemplo de uso básico de JavaScript em uma página web:
-
+'''
 <!DOCTYPE html>
 
 <html lang=“pt-BR”>
