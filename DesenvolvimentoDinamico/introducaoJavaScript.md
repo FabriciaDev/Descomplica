@@ -115,8 +115,7 @@ Há três maneiras principais de declarar variáveis em JavaScript: var, let e c
 
 Exemplo prático:
 
-
-
+````
 let idade = 30;
 
 const pi = 3.14159;
@@ -125,14 +124,13 @@ idade = 31; // Válido
 
 pi = 3.2;   // Erro! Não é possível alterar uma constante
 
+````
 
-
-Diferença de Escopo
+## Diferença de Escopo
 
 O escopo de uma variável refere-se à parte do código onde ela pode ser acessada. Em JavaScript, o escopo pode ser global (válido em todo o código), de função (válido dentro de uma função) ou de bloco (válido apenas dentro de um bloco, como em um if ou for).
 
-
-
+````
 function testeEscopo() {if (true) {var varGlobal = “Escopo global”;
 
         let letBloco = “Escopo de bloco”;}
@@ -143,31 +141,28 @@ function testeEscopo() {if (true) {var varGlobal = “Escopo global”;
 
 testeEscopo();
 
-
+````
 
 No exemplo acima, varGlobal pode ser acessada fora do bloco if, mas letBloco não, pois let tem escopo restrito ao bloco.
 
-Anotações no Código
+## Anotações no Código
 
 Documentar o código com comentários é uma prática essencial para garantir que ele seja compreensível por outros desenvolvedores e pelo próprio autor, caso precise revisitar o projeto no futuro. Comentários servem para explicar o que uma determinada parte do código faz, quais são suas responsabilidades e por que decisões foram tomadas.
 
 Existem dois tipos de comentários em JavaScript:
 
-Comentário de linha única: utilizado para explicar trechos curtos de código. Inicia-se com //.
+* Comentário de linha única: utilizado para explicar trechos curtos de código. Inicia-se com //.
 Exemplo:
 
-
-
+````
 let total = 10; // Armazena o valor total
-
+````
 ​
-
 Comentário de bloco: Utilizado para descrever trechos maiores de código ou fornecer explicações mais detalhadas. Envolve o texto entre /* e */.
 
-
 Exemplo:
 
-​
+````​
 /
 ∗
 /∗​Função que calcula a média de dois números.
@@ -179,10 +174,9 @@ A função recebe dois parâmetros numéricos e retorna o resultado da divisão 
 
 function calcularMedia(a, b) {return (a + b) / 2;
 
-
+````
 
 Comentários ajudam a manter o código legível e a evitar confusões futuras. Além disso, quando se trabalha em equipe, comentários claros e objetivos são essenciais para garantir que todos compreendam o código.
-
 
 
 Conteúdo Bônus
