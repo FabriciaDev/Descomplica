@@ -55,7 +55,7 @@ Em JavaScript, variáveis são usadas para armazenar dados que podem ser manipul
 
 Exemplo de variáveis:
 
-'''
+```
 
 var nome = “João”;  // Variável global ou local (escopo de função)
 
@@ -63,43 +63,43 @@ let idade = 25;     // Variável com escopo de bloco
 
 const pi = 3.14;    // Constante, valor imutável
 
-'''
+````
 
 Aqui, var permite que a variável nome seja acessada em qualquer parte da função onde foi definida, enquanto let limita o uso da variável idade ao bloco em que foi declarada. const, por sua vez, define uma constante cujo valor não pode ser alterado após a atribuição.
 
-Funções
+## Funções
 
 Funções são blocos de código reutilizáveis que realizam uma tarefa específica. Elas são fundamentais no JavaScript, permitindo organizar o código em pequenos blocos modulares. Uma função pode receber parâmetros, realizar operações e retornar um valor.
 
 Exemplo de função:
-
+````
 function somar(a, b) {return a + b;}
 
 let resultado = somar(5, 3);  // Chamada da função
 
 console.log(resultado);       // Exibe 8
 
-
+````
 
 Nesse exemplo, a função somar recebe dois parâmetros (a e b) e retorna a soma deles. A função pode ser chamada várias vezes com diferentes valores, tornando o código mais eficiente e fácil de manter.
 
-Estruturas de Controle
+## Estruturas de Controle
 
 As estruturas de controle, como condicionais (if, else) e loops (for, while), permitem tomar decisões e repetir blocos de código com base em condições específicas. 
 
 Exemplo de estrutura condicional:
-
+````
 let nota = 85;
 
 if (nota >= 60) {console.log(“Aprovado”);} else {console.log(“Reprovado”);}
 
-
+````
 
 Neste caso, o código verifica se a nota é maior ou igual a 60 e exibe “Aprovado” ou “Reprovado” dependendo do valor da variável nota.
 
 Esses são apenas alguns dos fundamentos do JavaScript, mas eles formam a base para a criação de qualquer aplicação web.
 
-Constantes e Variáveis
+## Constantes e Variáveis
 
 Em JavaScript, variáveis e constantes são utilizadas para armazenar e manipular informações. Entender como e quando utilizá-las é essencial para escrever um código eficiente e seguro.
 
@@ -107,11 +107,11 @@ var, let e const
 
 Há três maneiras principais de declarar variáveis em JavaScript: var, let e const.
 
-var: Declara uma variável com escopo de função ou global. Antes do ES6, essa era a principal maneira de declarar variáveis. Contudo, seu comportamento pode ser confuso, pois permite que variáveis sejam redeclaradas e acessadas fora do bloco onde foram definidas.
+* var: Declara uma variável com escopo de função ou global. Antes do ES6, essa era a principal maneira de declarar variáveis. Contudo, seu comportamento pode ser confuso, pois permite que variáveis sejam redeclaradas e acessadas fora do bloco onde foram definidas.
 
-let: Introduzida no ES6, let tem escopo de bloco, ou seja, a variável só está acessível dentro do bloco em que foi declarada. É mais segura que var porque impede certos erros de lógica.
+* let: Introduzida no ES6, let tem escopo de bloco, ou seja, a variável só está acessível dentro do bloco em que foi declarada. É mais segura que var porque impede certos erros de lógica.
 
-const: Também introduzida no ES6, const declara uma constante, ou seja, um valor que não pode ser alterado após sua atribuição. Ideal para valores que não devem mudar durante a execução do programa.
+* const: Também introduzida no ES6, const declara uma constante, ou seja, um valor que não pode ser alterado após sua atribuição. Ideal para valores que não devem mudar durante a execução do programa.
 
 Exemplo prático:
 
