@@ -8,7 +8,7 @@ JavaScript é uma linguagem de programação essencial no desenvolvimento web, r
 JavaScript é uma linguagem interpretada, o que significa que seu código é executado diretamente pelo navegador, sem a necessidade de compilação prévia. Ela é amplamente usada no lado do cliente (front-end), mas também pode ser aplicada no lado do servidor (back-end) com o uso do Node.js. Uma característica importante do JavaScript é sua integração com HTML e CSS. Enquanto o HTML define a estrutura de uma página e o CSS cuida da aparência, o JavaScript adiciona a lógica e os comportamentos dinâmicos, como responder a cliques do usuário, enviar e receber dados de servidores e muito mais.
 
 Exemplo de uso básico de JavaScript em uma página web:
-'''
+````
 <!DOCTYPE html>
 
 <html lang=“pt-BR”>
@@ -40,7 +40,7 @@ Exemplo de uso básico de JavaScript em uma página web:
 </html>
 
 
-
+````
 Neste exemplo, ao clicar no botão, uma janela de alerta aparece com a mensagem “Bem-vindo ao curso de JavaScript!”. Isso demonstra o papel do JavaScript em adicionar interatividade a páginas web.
 
 Além disso, o JavaScript é uma linguagem de alto nível, o que significa que ela é mais próxima da linguagem humana do que do código de máquina, facilitando o aprendizado. Sua sintaxe é clara e acessível, tornando-a uma excelente escolha tanto para iniciantes quanto para desenvolvedores avançados. No mercado atual, o JavaScript é amplamente utilizado, e frameworks como React, Angular e Vue.js têm consolidado seu uso em aplicações web modernas.
