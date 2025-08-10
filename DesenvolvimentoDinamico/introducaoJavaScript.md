@@ -211,4 +211,48 @@ PUGA, S.; RISSETTI, G. Lógica de programação e estruturas de dados, com aplic
 SEGURADO, V. S. (Org.). Projeto de interface com o usuário. Pearson: 2016.
 
 Atividade Prática 1 – Introdução a JavaScript
+1. Qual é a principal função de um comentário em JavaScript?
+a. Ajudar a tornar o código mais eficiente.
+b. Explicar o código e torná-lo mais legível.
+c. Modificar a execução do código.
+d. Acelerar a execução do código.
 
+
+
+2. O que são objetos em JavaScript?
+a. São blocos de código que podem ser reutilizados.
+b. São coleções de pares chave-valor e representam entidades do mundo real.
+c. São variáveis que não podem ser alteradas.
+d. São tipos de dados primitivos como números e strings.
+
+
+
+3. Qual é a principal vantagem de o JavaScript ser executado no navegador do usuário?
+a. Ele permite que o servidor controle a execução do código.
+b. Ele torna a execução da página mais lenta e menos interativa.
+c. Ele possibilita a criação de páginas mais rápidas e com melhor experiência de uso.
+d. Ele torna as páginas menos dinâmicas, focando apenas na estrutura HTML.
+
+
+
+4. Qual é o principal objetivo das estruturas de controle for e while em JavaScript?
+a. Definir uma condição para determinar o tipo de variável a ser utilizada.
+b. Realizar iteração, ou seja, repetir um bloco de código várias vezes, enquanto uma condição for verdadeira.
+c. Definir funções que podem ser chamadas em outros pontos do código.
+d. Comparar dois valores e retornar um valor booleano.
+
+​
+
+Gabarito Atividade Prática
+
+1. b. Explicar o código e torná-lo mais legível.
+Comentário: Comentários são usados para explicar o código de forma que ele se torne mais legível e compreensível para outras pessoas desenvolvedoras que irão utilizar o código – sem alterar a execução do código.
+
+2. b. São coleções de pares chave-valor e representam entidades do mundo real.
+Comentário: Objetos em JavaScript são estruturas que armazenam dados em pares de chave-valor, permitindo representar entidades complexas abstraindo a realidade.
+
+3. c. Ele possibilita a criação de páginas mais rápidas e com melhor experiência de uso.
+Comentário: Como o JavaScript é executado diretamente no navegador do usuário, ele permite que as páginas sejam mais rápidas e interativas, já que o código é processado no lado do cliente, sem precisar fazer requisições constantes ao servidor.
+
+4. b. Realizar iteração, ou seja, repetir um bloco de código várias vezes, enquanto uma condição for verdadeira.
+Comentário: As estruturas de controle for e while são usadas para repetir um bloco de código várias vezes, com base em uma condição. O for é normalmente usado quando o número de iterações é conhecido, enquanto o while continua a execução até que a condição especificada se torne falsa.
