@@ -1,7 +1,7 @@
-* Introdução a JavaScript
+# Introdução a JavaScript
 JavaScript é uma das linguagens de programação mais influentes no desenvolvimento web moderno, sendo responsável pela criação de páginas dinâmicas e interativas. Nesta aula introdutória, vamos explorar os principais conceitos que definem o JavaScript, sua aplicabilidade no front-end e sua crescente presença no back-end com o Node.js. Discutiremos como essa linguagem interpretada se integra com HTML e CSS para adicionar funcionalidades dinâmicas, tornando possível a criação de aplicações interativas que respondem em tempo real às ações dos usuários. Prepare-se para entender os fundamentos dessa tecnologia indispensável!
 
-** Introdução à Linguagem JavaScript
+## Introdução à Linguagem JavaScript
 
 JavaScript é uma linguagem de programação essencial no desenvolvimento web, responsável por tornar páginas web dinâmicas e interativas. A principal função dessa linguagem é permitir que os sites se adaptem às ações dos usuários, seja para exibir uma mensagem de boas-vindas, atualizar o conteúdo sem recarregar a página ou realizar cálculos em tempo real.
 
@@ -45,17 +45,17 @@ Neste exemplo, ao clicar no botão, uma janela de alerta aparece com a mensagem 
 
 Além disso, o JavaScript é uma linguagem de alto nível, o que significa que ela é mais próxima da linguagem humana do que do código de máquina, facilitando o aprendizado. Sua sintaxe é clara e acessível, tornando-a uma excelente escolha tanto para iniciantes quanto para desenvolvedores avançados. No mercado atual, o JavaScript é amplamente utilizado, e frameworks como React, Angular e Vue.js têm consolidado seu uso em aplicações web modernas.
 
-Fundamentos do JavaScript
+## Fundamentos do JavaScript
 
 Os fundamentos do JavaScript são essenciais para qualquer desenvolvedor que deseja trabalhar com a web. No centro desses fundamentos estão as variáveis, funções, operadores, estruturas de controle (como condicionais e loops) e manipulação do DOM (Document Object Model). Cada um desses elementos desempenha um papel crucial na construção de uma página web dinâmica e interativa.
 
-Variáveis e Tipos de Dados
+## Variáveis e Tipos de Dados
 
 Em JavaScript, variáveis são usadas para armazenar dados que podem ser manipulados posteriormente no código. Existem três formas de declarar variáveis: var, let e const, cada uma com suas particularidades em relação ao escopo e à mutabilidade. O var foi amplamente utilizado nas primeiras versões do JavaScript, mas a partir do ECMAScript 6 (ES6), let e const passaram a ser recomendados, proporcionando um controle mais rigoroso sobre o escopo das variáveis.
 
 Exemplo de variáveis:
 
-
+'''
 
 var nome = “João”;  // Variável global ou local (escopo de função)
 
@@ -63,7 +63,7 @@ let idade = 25;     // Variável com escopo de bloco
 
 const pi = 3.14;    // Constante, valor imutável
 
-
+'''
 
 Aqui, var permite que a variável nome seja acessada em qualquer parte da função onde foi definida, enquanto let limita o uso da variável idade ao bloco em que foi declarada. const, por sua vez, define uma constante cujo valor não pode ser alterado após a atribuição.
 
