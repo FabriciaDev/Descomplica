@@ -31,3 +31,4 @@ let resultadoImediato = (function(a,b){
     return a*b;
 })(4,6);
 console.log("Resultado da função anônima chamada imediatamente: " + resultadoImediato);
+

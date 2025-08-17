@@ -6,9 +6,8 @@ const externo = "Olá, eu sou uma constante global!";
 function exemploVar() {
     if (true) {
         var mensagem = "Olá, Faculdade Descomplica! Eu sou uma var...";
-        console.log(mensagem);
     }
-    
+    console.log(mensagem);
 }
 
 // Chamando a função exemploVar
